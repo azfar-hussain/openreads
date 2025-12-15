@@ -1,0 +1,74 @@
+[debug] [2025-11-27T09:58:32.473Z] ----------------------------------------------------------------------
+[debug] [2025-11-27T09:58:32.476Z] Command:       /home/ahussain/.nvm/versions/node/v24.11.1/bin/node /home/ahussain/.nvm/versions/node/v24.11.1/bin/firebase deploy
+[debug] [2025-11-27T09:58:32.476Z] CLI Version:   14.26.0
+[debug] [2025-11-27T09:58:32.477Z] Platform:      linux
+[debug] [2025-11-27T09:58:32.477Z] Node Version:  v24.11.1
+[debug] [2025-11-27T09:58:32.477Z] Time:          Thu Nov 27 2025 14:58:32 GMT+0500 (Pakistan Standard Time)
+[debug] [2025-11-27T09:58:32.477Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-11-27T09:58:32.792Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-11-27T09:58:32.793Z] > authorizing via signed-in user (azfarhussien@gmail.com)
+[debug] [2025-11-27T09:58:32.793Z] [iam] checking project a221084 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-11-27T09:58:32.795Z] Checked if tokens are valid: true, expires at: 1764239312840
+[debug] [2025-11-27T09:58:32.795Z] Checked if tokens are valid: true, expires at: 1764239312840
+[debug] [2025-11-27T09:58:32.796Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/a221084:testIamPermissions [none]
+[debug] [2025-11-27T09:58:32.796Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/a221084:testIamPermissions x-goog-quota-user=projects/a221084
+[debug] [2025-11-27T09:58:32.797Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/a221084:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-11-27T09:58:34.761Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/a221084:testIamPermissions 200
+[debug] [2025-11-27T09:58:34.761Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/a221084:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-11-27T09:58:34.762Z] Checked if tokens are valid: true, expires at: 1764239312840
+[debug] [2025-11-27T09:58:34.762Z] Checked if tokens are valid: true, expires at: 1764239312840
+[debug] [2025-11-27T09:58:34.763Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/a221084 [none]
+[debug] [2025-11-27T09:58:35.311Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/a221084 200
+[debug] [2025-11-27T09:58:35.311Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/a221084 {"projectId":"a221084","projectNumber":"855712592094","displayName":"ahues-den","name":"projects/a221084","resources":{"hostingSite":"a221084"},"state":"ACTIVE","etag":"1_ce74355e-2569-46c8-a051-2f47ab525192"}
+[info] 
+[info] === Deploying to 'a221084'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2025-11-27T09:58:35.319Z] Checked if tokens are valid: true, expires at: 1764239312840
+[debug] [2025-11-27T09:58:35.319Z] Checked if tokens are valid: true, expires at: 1764239312840
+[debug] [2025-11-27T09:58:35.319Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/a221084/versions [none]
+[debug] [2025-11-27T09:58:35.320Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/a221084/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2025-11-27T09:58:37.360Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/a221084/versions 200
+[debug] [2025-11-27T09:58:37.360Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/a221084/versions {"name":"projects/855712592094/sites/a221084/versions/562680ce9c5cb5c4","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[a221084]: beginning deploy... 
+[info] i  hosting[a221084]: found 12 files in _site 
+[debug] [2025-11-27T09:58:37.382Z] [hosting] uploading with 200 concurrency
+[debug] [2025-11-27T09:58:37.401Z] Checked if tokens are valid: true, expires at: 1764239312840
+[debug] [2025-11-27T09:58:37.401Z] Checked if tokens are valid: true, expires at: 1764239312840
+[debug] [2025-11-27T09:58:37.402Z] [hosting] hash cache [X3NpdGU] stored for 12 files
+[debug] [2025-11-27T09:58:37.402Z] [hosting][hash queue][FINAL] {"max":12,"min":9,"avg":10.666666666666666,"active":0,"complete":12,"success":12,"errored":0,"retried":0,"total":12,"elapsed":16}
+[debug] [2025-11-27T09:58:37.403Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/855712592094/sites/a221084/versions/562680ce9c5cb5c4:populateFiles [none]
+[debug] [2025-11-27T09:58:37.403Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/855712592094/sites/a221084/versions/562680ce9c5cb5c4:populateFiles {"files":{"/index.html":"4220d78ac93fbf5335ab502ba6bf92762e042d2ded9cd4fce98b651e955e1f67","/public/index.html":"6c8ff3e966970beedda909f669589746f27608fb58ff9e669f1da8663b67a44c","/public/hooked.html":"19df7109d402335b6090b3aeeb7ebaa7bb1c48fa35319c0d47eb9c967a15ba35","/404.html":"32f494d7d8ed84a6e86504e78f01a5dc724064ea5934241df7bff756048d6988","/public/beyondsuccess.html":"7a52c7b1c9dae1efea3d8b4151652a5349210340ee48db69b76e3771b8a9f746","/feed.xml":"0cfbe42b60efa3d7cfd0e129b19a678b394a5592aac5da7b87bc4084e7415f0b","/jekyll/update/2025/11/27/welcome-to-jekyll.html":"b131f36be5737086bc1a3175afe187678bd3f44fcfb86161491397b0902e24f2","/assets/main.css":"290cc5b573a8040614487d4dcc5c40c291a0993d8e9754a92e607eb1203fac4c","/assets/minima-social-icons.svg":"e32c0d49213d50401addb0a352b0d9fd7fbc9984a5e8f63962a491496d988e77","/about/index.html":"c0fc884a92a7fb58c8a98712f641372fa80a9836a26fb4fe404948710154832d","/public/llmjung.html":"cfabd1fa15f3e675e5e42f8cbb2363c0a0552dec38f3909a8c0477e84ff9b6cb","/assets/main.css.map":"191d9ea525d0ee08726c394c4c1a0a9ad9653cf53cc395a9ef0fc6c65acdd937"}}
+[debug] [2025-11-27T09:58:37.750Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/855712592094/sites/a221084/versions/562680ce9c5cb5c4:populateFiles 200
+[debug] [2025-11-27T09:58:37.750Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/855712592094/sites/a221084/versions/562680ce9c5cb5c4:populateFiles {"uploadRequiredHashes":["0cfbe42b60efa3d7cfd0e129b19a678b394a5592aac5da7b87bc4084e7415f0b"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/a221084/versions/562680ce9c5cb5c4/files"}
+[debug] [2025-11-27T09:58:37.751Z] Checked if tokens are valid: true, expires at: 1764239312840
+[debug] [2025-11-27T09:58:37.751Z] Checked if tokens are valid: true, expires at: 1764239312840
+[debug] [2025-11-27T09:58:37.751Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/a221084/versions/562680ce9c5cb5c4/files/0cfbe42b60efa3d7cfd0e129b19a678b394a5592aac5da7b87bc4084e7415f0b [none]
+[debug] [2025-11-27T09:58:37.751Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/a221084/versions/562680ce9c5cb5c4/files/0cfbe42b60efa3d7cfd0e129b19a678b394a5592aac5da7b87bc4084e7415f0b [stream]
+[debug] [2025-11-27T09:58:37.753Z] [hosting][populate queue][FINAL] {"max":350,"min":350,"avg":350,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":352}
+[debug] [2025-11-27T09:58:37.753Z] [hosting] uploads queued: 1
+[debug] [2025-11-27T09:58:38.932Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/a221084/versions/562680ce9c5cb5c4/files/0cfbe42b60efa3d7cfd0e129b19a678b394a5592aac5da7b87bc4084e7415f0b 400
+[debug] [2025-11-27T09:58:38.932Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/a221084/versions/562680ce9c5cb5c4/files/0cfbe42b60efa3d7cfd0e129b19a678b394a5592aac5da7b87bc4084e7415f0b [stream]
+[debug] [2025-11-27T09:58:38.933Z] [hosting][upload] feed.xml (0cfbe42b60efa3d7cfd0e129b19a678b394a5592aac5da7b87bc4084e7415f0b) HTTP ERROR 400: headers={} Couldn't process request (status=400): content hash doesn't match content
+[debug] [2025-11-27T09:58:39.333Z] [uploadQueue] Retrying task 0cfbe42b60efa3d7cfd0e129b19a678b394a5592aac5da7b87bc4084e7415f0b
+[debug] [2025-11-27T09:58:39.333Z] Checked if tokens are valid: true, expires at: 1764239312840
+[debug] [2025-11-27T09:58:39.333Z] Checked if tokens are valid: true, expires at: 1764239312840
+[debug] [2025-11-27T09:58:39.333Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/a221084/versions/562680ce9c5cb5c4/files/0cfbe42b60efa3d7cfd0e129b19a678b394a5592aac5da7b87bc4084e7415f0b [none]
+[debug] [2025-11-27T09:58:39.334Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/a221084/versions/562680ce9c5cb5c4/files/0cfbe42b60efa3d7cfd0e129b19a678b394a5592aac5da7b87bc4084e7415f0b [stream]
+[debug] [2025-11-27T09:58:40.092Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/a221084/versions/562680ce9c5cb5c4/files/0cfbe42b60efa3d7cfd0e129b19a678b394a5592aac5da7b87bc4084e7415f0b 400
+[debug] [2025-11-27T09:58:40.093Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/a221084/versions/562680ce9c5cb5c4/files/0cfbe42b60efa3d7cfd0e129b19a678b394a5592aac5da7b87bc4084e7415f0b [stream]
+[debug] [2025-11-27T09:58:40.093Z] [hosting][upload] feed.xml (0cfbe42b60efa3d7cfd0e129b19a678b394a5592aac5da7b87bc4084e7415f0b) HTTP ERROR 400: headers={} Couldn't process request (status=400): content hash doesn't match content
+[debug] [2025-11-27T09:58:40.893Z] [uploadQueue] Retrying task 0cfbe42b60efa3d7cfd0e129b19a678b394a5592aac5da7b87bc4084e7415f0b
+[debug] [2025-11-27T09:58:40.894Z] Checked if tokens are valid: true, expires at: 1764239312840
+[debug] [2025-11-27T09:58:40.894Z] Checked if tokens are valid: true, expires at: 1764239312840
+[debug] [2025-11-27T09:58:40.894Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/a221084/versions/562680ce9c5cb5c4/files/0cfbe42b60efa3d7cfd0e129b19a678b394a5592aac5da7b87bc4084e7415f0b [none]
+[debug] [2025-11-27T09:58:40.894Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/a221084/versions/562680ce9c5cb5c4/files/0cfbe42b60efa3d7cfd0e129b19a678b394a5592aac5da7b87bc4084e7415f0b [stream]
+[debug] [2025-11-27T09:58:41.965Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/a221084/versions/562680ce9c5cb5c4/files/0cfbe42b60efa3d7cfd0e129b19a678b394a5592aac5da7b87bc4084e7415f0b 400
+[debug] [2025-11-27T09:58:41.965Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/a221084/versions/562680ce9c5cb5c4/files/0cfbe42b60efa3d7cfd0e129b19a678b394a5592aac5da7b87bc4084e7415f0b [stream]
+[debug] [2025-11-27T09:58:41.965Z] [hosting][upload] feed.xml (0cfbe42b60efa3d7cfd0e129b19a678b394a5592aac5da7b87bc4084e7415f0b) HTTP ERROR 400: headers={} Couldn't process request (status=400): content hash doesn't match content
+[debug] [2025-11-27T09:58:43.566Z] [uploadQueue] Retrying task 0cfbe42b60efa3d7cfd0e129b19a678b394a5592aac5da7b87bc4084e7415f0b
+[debug] [2025-11-27T09:58:43.567Z] Checked if tokens are valid: true, expires at: 1764239312840
+[debug] [2025-11-27T09:58:43.567Z] Checked if tokens are valid: true, expires at: 1764239312840
+[debug] [2025-11-27T09:58:43.567Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/a221084/versions/562680ce9c5cb5c4/files/0cfbe42b60efa3d7cfd0e129b19a678b394a5592aac5da7b87bc4084e7415f0b [none]
+[debug] [2025-11-27T09:58:43.567Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/a221084/versions/562680ce9c5cb5c4/files/0cfbe42b60efa3d7cfd0e129b19a678b394a5592aac5da7b87bc4084e7415f0b [stream]
