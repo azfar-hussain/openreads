@@ -3,9 +3,9 @@ layout: post
 title:  "Welcome to OpenReads!"
 date:   2026-06-07 18:00:00 +0500
 categories: jekyll update
+description: "A curated map of all essays published on OpenReads — exploring meaning, motivation, inner life, and the art of living well."
 ---
 
-{% highlight ruby %}
 ## Openreads Article Map
 
 | Title | URL | Version |
@@ -80,4 +80,3 @@ categories: jekyll update
 | Where Duty meets Desire | [https://openreads.xyz/where_duty_meets_desire.html](https://openreads.xyz/where_duty_meets_desire.html) | 0.2++ |
 | Why diversity matters? Diversity over Redundancy | [https://openreads.xyz/plans_and_meaning.html](https://openreads.xyz/plans_and_meaning.html) | 0.3-- |
 | Why Embrace Pragmatist Values? | [https://openreads.xyz/pragmatist.html](https://openreads.xyz/pragmatist.html) | 0.1 |
-{% endhighlight %}
