@@ -1,0 +1,83 @@
+---
+layout: post
+title:  "Welcome to OpenReads!"
+date:   2026-06-07 18:00:00 +0500
+categories: jekyll update
+---
+
+{% highlight ruby %}
+## Openreads Article Map
+
+| Title | URL | Version |
+|-------|-----|---------|
+| A Balanced Life | [https://openreads.xyz/presentfuture.html](https://openreads.xyz/presentfuture.html) | 0.1 |
+| A Golden Heuristic | [https://openreads.xyz/heuristic.html](https://openreads.xyz/heuristic.html) | 0.1 |
+| A Powerful Mental Trick to Ease Stress Instantly | [https://openreads.xyz/hackstress.html](https://openreads.xyz/hackstress.html) | 0.1 |
+| All Things Creative! | [https://openreads.xyz/creativity.html](https://openreads.xyz/creativity.html) | 0.1 |
+| Am I in the loop? | [https://openreads.xyz/hooked.html](https://openreads.xyz/hooked.html) | 0.1 |
+| Are you an anchor or an owner? | [https://openreads.xyz/anchorhood.html](https://openreads.xyz/anchorhood.html) | 0.2++ |
+| As Per Word... | [https://openreads.xyz/word.html](https://openreads.xyz/word.html) | 0.1 |
+| Be Water, My Friend | [https://openreads.xyz/bewater.html](https://openreads.xyz/bewater.html) | 0.1 |
+| Becoming | [https://openreads.xyz/becoming.html](https://openreads.xyz/becoming.html) | 0.1 |
+| Beginning | [https://openreads.xyz/beginning.html](https://openreads.xyz/beginning.html) | 0.1 |
+| Between Vision and Ground | [https://openreads.xyz/neither_dreamer_nor_cynic.html](https://openreads.xyz/neither_dreamer_nor_cynic.html) | 0.2-- |
+| Beyond Success … | [https://openreads.xyz/beyondsuccess.html](https://openreads.xyz/beyondsuccess.html) | 0.1 |
+| Brain Hacks for Curiosity and Fear | [https://openreads.xyz/brain_hacking.html](https://openreads.xyz/brain_hacking.html) | 0.2- |
+| Budgeting | [https://openreads.xyz/budget.html](https://openreads.xyz/budget.html) | 0.1 |
+| Confidence vs. Self-Importance | [https://openreads.xyz/contrast.html](https://openreads.xyz/contrast.html) | 0.1 |
+| Conflict | [https://openreads.xyz/conflict.html](https://openreads.xyz/conflict.html) | 0.1 |
+| Connecting the dots | [https://openreads.xyz/connecting_dots.html](https://openreads.xyz/connecting_dots.html) | 0.3-- |
+| Dance | [https://openreads.xyz/dance.html](https://openreads.xyz/dance.html) | 0.1 |
+| Diversity and Perspective | [https://openreads.xyz/diversity.html](https://openreads.xyz/diversity.html) | 0.1 |
+| Does Life get any easier? | [https://openreads.xyz/easy_difficulty.html](https://openreads.xyz/easy_difficulty.html) | 0.3-- |
+| Dreamer or Accountant? | [https://openreads.xyz/dreameraccountant.html](https://openreads.xyz/dreameraccountant.html) | 0.1 |
+| Dukkha & Tetris | [https://openreads.xyz/dukkha.html](https://openreads.xyz/dukkha.html) | 0.1 |
+| Endings & Beginnings | [https://openreads.xyz/beginningendings.html](https://openreads.xyz/beginningendings.html) | 0.1 |
+| Eustress - Desirable Stress | [https://openreads.xyz/eustress.html](https://openreads.xyz/eustress.html) | 0.2- |
+| Extension | [https://openreads.xyz/needrelations.html](https://openreads.xyz/needrelations.html) | 0.1 |
+| Facing Our Thoughts Head-On | [https://openreads.xyz/thoughtchecks.html](https://openreads.xyz/thoughtchecks.html) | 0.1 |
+| Fear and Curiosity | [https://openreads.xyz/fear_curiosity_essay.html](https://openreads.xyz/fear_curiosity_essay.html) | 0.2- |
+| GTD: A Critical Look | [https://openreads.xyz/gtdcritical.html](https://openreads.xyz/gtdcritical.html) | 0.1 |
+| Healthy Coping Mechanisms | [https://openreads.xyz/coping.html](https://openreads.xyz/coping.html) | 0.1 |
+| Healthy Interventions | [https://openreads.xyz/healthyintervention.html](https://openreads.xyz/healthyintervention.html) | 0.1 |
+| Inner Work | [https://openreads.xyz/innerwork.html](https://openreads.xyz/innerwork.html) | 0.1 |
+| Interesting Parallels … | [https://openreads.xyz/llmjung.html](https://openreads.xyz/llmjung.html) | 0.1 |
+| Keeping Positives in Motion | [https://openreads.xyz/concerto.html](https://openreads.xyz/concerto.html) | 0.2+ |
+| Knowledge or Wisdom? | [https://openreads.xyz/knowledgewisdom.html](https://openreads.xyz/knowledgewisdom.html) | 0.1 |
+| Map | [https://openreads.xyz/main.html](https://openreads.xyz/main.html) | 0.3-- |
+| METRICS, CLARITY, AND THE THREE-PHASE CORE PROCESS | [https://openreads.xyz/metrics.html](https://openreads.xyz/metrics.html) | 0.2+ |
+| Micro-relief | [https://openreads.xyz/microrelief.html](https://openreads.xyz/microrelief.html) | 0.1 |
+| Motivational Models at Work! | [https://openreads.xyz/motivational_frameworks.html](https://openreads.xyz/motivational_frameworks.html) | 0.2 |
+| Personalising your challenge | [https://openreads.xyz/personalising_challenge.html](https://openreads.xyz/personalising_challenge.html) | 0.2++ |
+| Prioritizing Under Pressure | [https://openreads.xyz/gtdstress.html](https://openreads.xyz/gtdstress.html) | 0.1 |
+| Push-Pull Dynamics | [https://openreads.xyz/pushpull.html](https://openreads.xyz/pushpull.html) | 0.1 |
+| Puzzle | [https://openreads.xyz/puzzle.html](https://openreads.xyz/puzzle.html) | 0.1 |
+| Signal | [https://openreads.xyz/signal.html](https://openreads.xyz/signal.html) | 0.2+ |
+| Stay Hungry, Stay Foolish! | [https://openreads.xyz/foolish.html](https://openreads.xyz/foolish.html) | 0.1 |
+| Thank You! | [https://openreads.xyz/cosmos_inside.html](https://openreads.xyz/cosmos_inside.html) | 0.3-- |
+| Task Prioritization and Well-Being | [https://openreads.xyz/matrixeisenhower.html](https://openreads.xyz/matrixeisenhower.html) | 0.1 |
+| The 3C Model of Motivation | [https://openreads.xyz/motivationmodel.html](https://openreads.xyz/motivationmodel.html) | 0.1 |
+| The Belief Checklist | [https://openreads.xyz/beliefs.html](https://openreads.xyz/beliefs.html) | 0.1 |
+| The Double Edge of Human Pattern Recognition | [https://openreads.xyz/uncertainty_tamed.html](https://openreads.xyz/uncertainty_tamed.html) | 0.2-- |
+| The Four Tools through Problem Solving stages | [https://openreads.xyz/four_tools_problem_solving.html](https://openreads.xyz/four_tools_problem_solving.html) | 0.2-- |
+| The Hidden Cost of Negative Forecasting | [https://openreads.xyz/uncertainty.html](https://openreads.xyz/uncertainty.html) | 0.1++ |
+| The Hygiene of the Inner Life | [https://openreads.xyz/the_hygiene_of_the_inner_life.html](https://openreads.xyz/the_hygiene_of_the_inner_life.html) | 0.3-- |
+| The Illusion of Certainty | [https://openreads.xyz/feelings.html](https://openreads.xyz/feelings.html) | 0.1 |
+| The Lure of False Motivation | [https://openreads.xyz/false-motivation.html](https://openreads.xyz/false-motivation.html) | 0.1+ |
+| The Meaning Making Mind | [https://openreads.xyz/meaning-making-mind.html](https://openreads.xyz/meaning-making-mind.html) | 0.2++ |
+| The Paradox of True Freedom | [https://openreads.xyz/freedom-paradox.html](https://openreads.xyz/freedom-paradox.html) | 0.1+ |
+| The Power of Negative Emotions | [https://openreads.xyz/emotions.html](https://openreads.xyz/emotions.html) | 0.1 |
+| The Power of Perspective | [https://openreads.xyz/transform.html](https://openreads.xyz/transform.html) | 0.1 |
+| The Science of Real Change | [https://openreads.xyz/changemodel.html](https://openreads.xyz/changemodel.html) | 0.1 |
+| The Three Minds of a Stress Buster | [https://openreads.xyz/three-minds.html](https://openreads.xyz/three-minds.html) | 0.1++ |
+| To Act, or Not to Act? | [https://openreads.xyz/act.html](https://openreads.xyz/act.html) | 0.1 |
+| Transform Your Mindset | [https://openreads.xyz/reaffirmations.html](https://openreads.xyz/reaffirmations.html) | 0.1+ |
+| Transforming Emotional Bias | [https://openreads.xyz/knowledgeagency.html](https://openreads.xyz/knowledgeagency.html) | 0.1 |
+| Truth Seeking in a Noisy World | [https://openreads.xyz/truth.html](https://openreads.xyz/truth.html) | 0.1 |
+| Two Lives | [https://openreads.xyz/twolives.html](https://openreads.xyz/twolives.html) | 0.1 |
+| Understanding Procrastination | [https://openreads.xyz/procrastination.html](https://openreads.xyz/procrastination.html) | 0.1 |
+| We Are Social Creatures | [https://openreads.xyz/sociallyus.html](https://openreads.xyz/sociallyus.html) | 0.1 |
+| Where Duty meets Desire | [https://openreads.xyz/where_duty_meets_desire.html](https://openreads.xyz/where_duty_meets_desire.html) | 0.2++ |
+| Why diversity matters? Diversity over Redundancy | [https://openreads.xyz/plans_and_meaning.html](https://openreads.xyz/plans_and_meaning.html) | 0.3-- |
+| Why Embrace Pragmatist Values? | [https://openreads.xyz/pragmatist.html](https://openreads.xyz/pragmatist.html) | 0.1 |
+{% endhighlight %}
